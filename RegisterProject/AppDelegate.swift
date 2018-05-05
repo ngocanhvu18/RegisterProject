@@ -15,7 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let navigationController = application.windows[0].rootViewController as? UINavigationController
+        let checkData = UserDefaults.standard.string(forKey: "city") != nil && UserDefaults.standard.string(forKey: "district") != nil && UserDefaults.standard.string(forKey: "age") != nil && UserDefaults.standard.string(forKey: "gender") != nil
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        if checkData {
+            let showHistory = storyBoard.instantiateViewController(withIdentifier: "InformationViewController") as! InformationViewController
+            navigationController?.pushViewController(showHistory, animated: true)
+        } else {
+            let cityViewController = storyBoard.instantiateViewController(withIdentifier: "CitiesTableViewController") as! CitiesTableViewController
+            navigationController?.pushViewController(cityViewController, animated: true)
+        }
         return true
     }
 

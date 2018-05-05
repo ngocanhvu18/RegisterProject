@@ -8,23 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		2F1AB96B209953F9002C4C3A /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F7D799D2099490700086EED /* Cities.plist */; };
+		2F48C1BA2099624B00E32FFD /* PlistService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48C1B92099624B00E32FFD /* PlistService.swift */; };
+		2F4DB5D9209C3D6B0080993D /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DB5D8209C3D6B0080993D /* GenderViewController.swift */; };
+		2F4DB5DB209C510C0080993D /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DB5DA209C510C0080993D /* InformationViewController.swift */; };
 		2F7D798C209948FF00086EED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7D798B209948FF00086EED /* AppDelegate.swift */; };
-		2F7D798E209948FF00086EED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7D798D209948FF00086EED /* ViewController.swift */; };
 		2F7D7991209948FF00086EED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7D798F209948FF00086EED /* Main.storyboard */; };
 		2F7D7993209948FF00086EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7D7992209948FF00086EED /* Assets.xcassets */; };
 		2F7D7996209948FF00086EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F7D7994209948FF00086EED /* LaunchScreen.storyboard */; };
+		2F8F9E4C2099643E00A80CF0 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F9E4B2099643E00A80CF0 /* City.swift */; };
+		2F8F9E4E209964DF00A80CF0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F9E4D209964DF00A80CF0 /* DataService.swift */; };
+		2F8F9E502099660E00A80CF0 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F9E4F2099660E00A80CF0 /* CitiesTableViewController.swift */; };
+		2F8F9E552099691500A80CF0 /* Districts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F9E542099691500A80CF0 /* Districts.swift */; };
+		2FE9C1062099A4E800575A83 /* DistrictsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE9C1052099A4E800575A83 /* DistrictsTableViewController.swift */; };
+		2FE9C1072099A56D00575A83 /* Districts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F48C1B320995B6A00E32FFD /* Districts.plist */; };
+		2FFCB8BB2099BEF400320E78 /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFCB8BA2099BEF400320E78 /* AgeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F48C1B320995B6A00E32FFD /* Districts.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Districts.plist; sourceTree = "<group>"; };
+		2F48C1B92099624B00E32FFD /* PlistService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistService.swift; sourceTree = "<group>"; };
+		2F4DB5D8209C3D6B0080993D /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		2F4DB5DA209C510C0080993D /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		2F7D7988209948FF00086EED /* RegisterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegisterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7D798B209948FF00086EED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F7D798D209948FF00086EED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F7D7990209948FF00086EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F7D7992209948FF00086EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F7D7995209948FF00086EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F7D7997209948FF00086EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F7D799D2099490700086EED /* Cities.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
+		2F8F9E4B2099643E00A80CF0 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		2F8F9E4D209964DF00A80CF0 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		2F8F9E4F2099660E00A80CF0 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		2F8F9E542099691500A80CF0 /* Districts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Districts.swift; sourceTree = "<group>"; };
+		2FE9C1052099A4E800575A83 /* DistrictsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictsTableViewController.swift; sourceTree = "<group>"; };
+		2FFCB8BA2099BEF400320E78 /* AgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +55,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F48C1BB2099625400E32FFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F48C1B92099624B00E32FFD /* PlistService.swift */,
+				2F8F9E4B2099643E00A80CF0 /* City.swift */,
+				2F8F9E542099691500A80CF0 /* Districts.swift */,
+				2F8F9E4D209964DF00A80CF0 /* DataService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2F7D797F209948FF00086EED = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				2F7D798B209948FF00086EED /* AppDelegate.swift */,
-				2F7D798D209948FF00086EED /* ViewController.swift */,
+				2F48C1BB2099625400E32FFD /* Model */,
+				2F8F9E512099662100A80CF0 /* Controller */,
 				2F7D798F209948FF00086EED /* Main.storyboard */,
 				2F7D799D2099490700086EED /* Cities.plist */,
 				2F48C1B320995B6A00E32FFD /* Districts.plist */,
@@ -67,6 +96,18 @@
 				2F7D7997209948FF00086EED /* Info.plist */,
 			);
 			path = RegisterProject;
+			sourceTree = "<group>";
+		};
+		2F8F9E512099662100A80CF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F8F9E4F2099660E00A80CF0 /* CitiesTableViewController.swift */,
+				2FE9C1052099A4E800575A83 /* DistrictsTableViewController.swift */,
+				2FFCB8BA2099BEF400320E78 /* AgeViewController.swift */,
+				2F4DB5D8209C3D6B0080993D /* GenderViewController.swift */,
+				2F4DB5DA209C510C0080993D /* InformationViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F7D7996209948FF00086EED /* LaunchScreen.storyboard in Resources */,
+				2FE9C1072099A56D00575A83 /* Districts.plist in Resources */,
 				2F7D7993209948FF00086EED /* Assets.xcassets in Resources */,
 				2F7D7991209948FF00086EED /* Main.storyboard in Resources */,
 				2F1AB96B209953F9002C4C3A /* Cities.plist in Resources */,
@@ -142,8 +184,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F7D798E209948FF00086EED /* ViewController.swift in Sources */,
+				2F4DB5D9209C3D6B0080993D /* GenderViewController.swift in Sources */,
+				2F48C1BA2099624B00E32FFD /* PlistService.swift in Sources */,
+				2FE9C1062099A4E800575A83 /* DistrictsTableViewController.swift in Sources */,
+				2F8F9E502099660E00A80CF0 /* CitiesTableViewController.swift in Sources */,
 				2F7D798C209948FF00086EED /* AppDelegate.swift in Sources */,
+				2F8F9E4C2099643E00A80CF0 /* City.swift in Sources */,
+				2F8F9E4E209964DF00A80CF0 /* DataService.swift in Sources */,
+				2FFCB8BB2099BEF400320E78 /* AgeViewController.swift in Sources */,
+				2F8F9E552099691500A80CF0 /* Districts.swift in Sources */,
+				2F4DB5DB209C510C0080993D /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
